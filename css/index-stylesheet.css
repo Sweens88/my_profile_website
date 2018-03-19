@@ -1,0 +1,190 @@
+html{
+  height: 100%;
+  width: 100%;
+  min-height: 300px;
+}
+.indexBody{
+  min-height: 100%;
+  min-width: 100%;
+  background-position: center;
+  background-image: url('../images/lake6.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+}
+
+hr {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 8px auto;
+  height: 0;
+  width: 100%;
+  max-height: 0;
+  font-size: 1px;
+  line-height: 0;
+  clear: both;
+  border: none;
+  border-top: 1px solid #424142;
+  border-bottom: 1px solid #424142;
+}
+
+#button {
+  height: 120px;
+  width: 160px;
+  font-size: 20px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#name{
+  color: black;
+  margin-top: 100px;
+  font-family: 'Unica One', cursive;
+
+}
+
+#about_me{
+  font-size: 35px;
+  padding-bottom: 30px;
+  font-family: 'Unica One', cursive;
+}
+
+.btn{
+  font-size: 20px;
+  font-weight: bold;
+  width: 170px;
+  color: black;
+  border: 1.5px solid black;
+  font-family: 'Unica One', cursive;
+  margin: 10px 50px;
+}
+
+#initials{
+  font-family: 'Megrim', cursive;
+  position: absolute;
+  top: 260px; 
+  
+}
+
+a {
+  color: inherit;
+}
+
+#initials:first-child {
+  font-size: 80px;
+}
+
+#initials:nth-child(2) {
+  font-size: 35px;
+  padding-top: 35px;
+  padding-left: 5px;
+}
+
+#initials2{
+  font-family: 'Megrim', cursive;
+  align-items: center;
+  position: relative;
+  
+  
+}
+
+#initials2:first-child {
+  font-size: 80px;
+  position: relative;
+  left: 15px;
+  bottom: 25px;
+}
+
+#initials2:nth-child(2) {
+  font-size: 35px;
+  position: relative;
+  right: 25px;
+  bottom: 38px;
+
+    
+}
+
+
+.navbar {
+  border-radius: 100px;
+  border: 2px solid gray;
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
+
+
+
+}
+
+.social_icon {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+
+  
+}
+
+.name {
+  margin-right: 10px;
+}
+
+.nav_container{
+  width: 55%;
+  
+   
+}
+
+.navbar {
+  border-radius: 30px;
+  border: 3px solid black;
+  background: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  
+}
+
+footer {
+
+  width: 100%;
+  clear:both;
+  flex: 0 0 65px;/*or just height:50px;*/
+  margin-top: auto;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+
+
+}
+
+@media screen and (max-width: 950px) {
+  .navbar {font-size: 1.5rem;}
+  .social-icon {width: 45px;height: 45px;}
+  .nav_container {width: 75%;}
+}
+
+
+@media screen and (max-width: 650px) {
+  .navbar {font-size: 1rem;}
+  .social_icon {width: 35px;height: 35px;}
+  .nav_container {width: 85%;}
+
+
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {font-size: .5rem;}
+  .social_icon {width: 25px;height: 25px;}
+  .nav_container {width: 100%;}
+  #name {font-size: 2.5rem; margin-top: 20px;}
+  #about_me {font-size: 1.5rem;}
+  .btn {font-size: 1.2rem;}
+  #initials2:first-child {top:5px}
+  #initials2:nth-child(2) {top:-7px}
+
+}
